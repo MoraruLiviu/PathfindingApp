@@ -8,3 +8,4 @@ This aplication contains a Unity project that implements a maze generator and ai
 
 [Also hosted on Itch.io](https://shinyeyes.itch.io/pathfindingapp "Itch.io host link")
 
+![NVIDIA_Share_q7s8Q6JHsg](https://github.com/MoraruLiviu/PathfindingApp/assets/79563260/cfce1939-3491-4c5c-af47-a839ce24d1da)
