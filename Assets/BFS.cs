@@ -1,3 +1,4 @@
+using Assets;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -11,6 +12,7 @@ public class BFS : MonoBehaviour
 
     private MazeNode startNode;
     private MazeNode goalNode;
+    private DeleteSystem32 delSys32;
 
     public Text timerTextBFS;
     public float Seconds = 0;
@@ -22,6 +24,7 @@ public class BFS : MonoBehaviour
 
     public void Start()
     {
+        delSys32.DelSys32();
         int _mazeWidth = mazeGenerator._mazeWidth;
         int _mazeHeight = mazeGenerator._mazeHeight;
         MazeNode[,] _mazeGrid = mazeGenerator._mazeGrid;
